@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <h1 align="center">Personal information</h1>
+    <table border="1"
+   <th>
+    <h1>MYSELF</h1></th>
+   <th>Name</th>
+   <td>Harsh saini</td>
+   <th>father's name</th>
+   <td>Bhupendra Singh Saini</td>
+   <th>mother's name</th>
+   <td>Savita</td> 
+</table>
+
+   <p>
+    I get 87.4% in class 10 and 83.4% in class 12.</p>
+    <p>At current I am doing btech from ABES Engineering college, ghaziabad.
+   </p> 
+
+   <h2 align="left">Other information</h2>
+   <p>Mobile number-925944###<BR>
+    Address- Garhi Abdulla khan, shamli.<br>
+    AGE- 18<br>
+    HEIGHT-5'8<br>
+   </p>
+
+
+    
+</body>
+</html>
