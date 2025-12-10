@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML layout</title>
+    <style>body{
+        margin 0;
+        padding 0;
+    }
+    html,*{
+        margin 0;
+        padding 0;
+         box-sizing: border-box;
+    }
+    main{
+        width: 1200px;
+        height: auto;
+        background-color: rgb(132, 160, 66);
+    }
+    nav,header,article,footer{
+        background-color: rgb(27, 201, 158);height 140px;text-align: center;
+    }
+    section{
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+    }
+    .box{
+        flex-grow : 1;
+        background-color: rgb(206, 13, 110);
+        text align:center;
+        line height: 300px;
+    }
+        </style>
+</head>
+<body>
+    <main><!--main start-->
+        <nav><h2>navigation</h2></nav>
+        <header><h2>header</h2></header>
+        <article><h2>intor text area</h2></article>
+        <section>
+            <div class="box"><h2>box 1</h2></div>
+            <div class="box"><h2>box 2</h2></div>
+            <div class="box"><h2>box 3</h2></div>
+        </section>
+        <footer><h2>footer</h2></footer>
+        </main>
+    
+</body>
+</html>
